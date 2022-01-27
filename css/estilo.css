@@ -1,0 +1,130 @@
+/* cor para bacground==> #a8d6ce  |  cor para interface #7ea69f */
+@charset "UTF-8";
+@font-face {
+    font-family: 'bubble';
+    src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
+body {
+    background-color: #a8d6ce;
+}
+div#interface {
+    width: 1200px;
+    background-color: #7ea69f;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+a {
+    -moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    -webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    -ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+    color: inherit;
+    text-decoration: none;
+}
+div#interface a {
+    text-decoration: none;
+    color: aquamarine;
+    font-weight: bolder;
+    transition: color 1s;
+}
+div#interface a:hover {
+    color: black;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: bubble, sans-serif;    
+}
+p {
+    text-align: justify;
+    text-indent: 25px;
+    font-family: sans-serif;
+}
+ul, ol, dl{
+    font-family: Arial, sans-serif;
+}
+h3#model {
+    font-family: sans-serif;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 50px;
+}
+h3#modelo {
+    font-family: sans-serif;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 130px;
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+hgroup#open {
+    border: 1px solid #606060;
+    padding: 10px;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 390px;
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+}
+nav#menu li {
+    display: inline-block;
+    padding: 10px;
+    background-color: #707070;
+    transition: background-color 1s;
+}
+nav#menu li:hover {
+    background-color: beige;
+}
+nav#menu h1 {
+    display: none;
+}
+section#content {
+    display: block;
+    width: 500px;
+    float: left;
+    
+}
+article#notindo {
+    display: block;
+    width: auto;
+    clear: both;
+}
+article#notind h2 {
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+
+}
+header#articlehead h1 {
+    font-family: 'fontlogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+}
+header#articlehead h3.dir {
+    text-align: right;
+}
+header#cabecalho img#icone {
+    position: absolute;
+    left: 1220px;
+    top: 70px;
+}
+aside#lateral {
+    display: block;
+    width: 450px;
+    float: right;
+}
+footer#rodape {
+    clear: both;
+}
